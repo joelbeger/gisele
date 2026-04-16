@@ -54,7 +54,7 @@ nav.scrolled {
   box-shadow: 0 2px 20px rgba(107, 127, 94, 0.08);
 }
 .nav-inner {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -188,7 +188,7 @@ nav.scrolled {
   pointer-events: none;
 }
 .hero-inner {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   width: 100%;
   display: grid;
@@ -338,7 +338,7 @@ section {
   padding: 100px 32px;
 }
 .section-inner {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 .section-label {

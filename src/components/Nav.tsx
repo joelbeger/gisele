@@ -64,7 +64,13 @@ export default function Nav() {
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={close} className="nav-cta">
+            <a
+              href="https://wa.me/5515996015944"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={close}
+              className="nav-cta"
+            >
               Agendar Sessão
             </a>
           </li>

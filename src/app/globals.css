@@ -565,7 +565,7 @@ section {
   flex-shrink: 0;
 }
 
-/* ── CTA / CALENDLY ── */
+/* ── CTA ── */
 .cta-section {
   background: linear-gradient(135deg, var(--olive-dark) 0%, var(--olive) 50%, var(--olive-light) 100%);
   text-align: center;
@@ -605,59 +605,38 @@ section {
   color: rgba(255, 255, 255, 0.85);
   margin-bottom: 36px;
 }
-.cta-whatsapp {
-  font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 40px;
-}
-.cta-whatsapp a {
+.btn-whatsapp {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  color: #fff;
+  gap: 14px;
+  background: #25d366;
+  color: #ffffff;
+  padding: 26px 56px;
+  border-radius: 44px;
   text-decoration: none;
-  font-weight: 600;
-  border-bottom: 1.5px solid rgba(255, 255, 255, 0.4);
-  padding-bottom: 1px;
-  transition: border-color 0.3s;
-}
-.cta-whatsapp a:hover {
-  border-color: #fff;
-}
-.btn-light {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: #fff;
-  color: var(--olive-dark);
-  padding: 16px 36px;
-  border-radius: 32px;
-  text-decoration: none;
-  font-size: 0.95rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
   transition: all 0.3s;
   border: none;
   cursor: pointer;
+  box-shadow: 0 14px 40px rgba(37, 211, 102, 0.35);
 }
-.btn-light:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+.btn-whatsapp svg {
+  flex-shrink: 0;
 }
-.calendly-embed {
-  margin-top: 48px;
-  background: rgba(255, 255, 255, 0.06);
-  border-radius: 20px;
-  padding: 8px;
-  min-height: 660px;
+.btn-whatsapp:hover {
+  background: #20bd5a;
+  transform: translateY(-3px);
+  box-shadow: 0 20px 52px rgba(37, 211, 102, 0.45);
 }
-.calendly-embed iframe {
-  width: 100%;
-  min-height: 650px;
-  border: none;
-  border-radius: 16px;
-  display: block;
+@media (max-width: 600px) {
+  .btn-whatsapp {
+    font-size: 1.15rem;
+    padding: 20px 32px;
+    gap: 10px;
+  }
 }
-
 /* ── FOOTER ── */
 footer {
   background: var(--text-dark);
